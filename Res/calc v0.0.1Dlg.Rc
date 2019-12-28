@@ -1,0 +1,62 @@
+#define Ventana1 1
+#define btn9 109
+#define btn8 108
+#define btn7 107
+#define btn6 106
+#define btn5 105
+#define btn4 104
+#define btn3 103
+#define btn2 102
+#define btn1 101
+#define btn0 100
+#define btnIgual 114
+#define btnPlot 126
+#define btnAdd 110
+#define btnRes 111
+#define btnDiv 113
+#define btnMul 112
+#define btnCuad 116
+#define btnPot 117
+#define btnSqrt 115
+#define btnDel 1000
+#define btnSen 122
+#define btnCos 123
+#define btnTan 124
+#define btnCA 125
+#define consola 120
+#define consola1 121
+#define IDC_SHP1 1001
+Ventana1 DIALOGEX 3,2,184,183
+CAPTION "Calculadora"
+FONT 16,"Palatino Linotype",700,0
+STYLE 0x10CA0880
+EXSTYLE 0x00000001
+BEGIN
+  CONTROL "9",btn9,"Button",0x50010000,136,169,21,12,0x00000000
+  CONTROL "8",btn8,"Button",0x50010000,114,169,21,12,0x00000000
+  CONTROL "7",btn7,"Button",0x50010000,92,169,21,12,0x00000000
+  CONTROL "6",btn6,"Button",0x50010000,70,169,21,12,0x00000000
+  CONTROL "5",btn5,"Button",0x50010000,48,169,21,12,0x00000000
+  CONTROL "4",btn4,"Button",0x50010000,136,156,21,12,0x00000000
+  CONTROL "3",btn3,"Button",0x50010000,114,156,21,12,0x00000000
+  CONTROL "2",btn2,"Button",0x50010000,92,156,21,12,0x00000000
+  CONTROL "1",btn1,"Button",0x50010000,70,156,21,12,0x00000000
+  CONTROL "0",btn0,"Button",0x50010000,48,156,21,12,0x00000000
+  CONTROL "=",btnIgual,"Button",0x50010000,158,169,21,12,0x00000000
+  CONTROL "Plot",btnPlot,"Button",0x50010000,158,156,21,12,0x00000000
+  CONTROL "+",btnAdd,"Button",0x50010000,136,144,21,12,0x00000000
+  CONTROL "-",btnRes,"Button",0x50010000,114,144,21,12,0x00000000
+  CONTROL "/",btnDiv,"Button",0x50010000,70,144,21,12,0x00000000
+  CONTROL "*",btnMul,"Button",0x50010000,92,144,21,12,0x00000000
+  CONTROL "x^2",btnCuad,"Button",0x50010000,25,156,21,12,0x00000000
+  CONTROL "x^n",btnPot,"Button",0x50010000,25,169,21,12,0x00000000
+  CONTROL "Sqrt",btnSqrt,"Button",0x50010000,25,144,21,12,0x00000000
+  CONTROL "Off",btnDel,"Button",0x50010000,48,144,21,12,0x00000000
+  CONTROL "Sen",btnSen,"Button",0x50010000,3,169,21,12,0x00000000
+  CONTROL "Cos",btnCos,"Button",0x50010000,3,156,21,12,0x00000000
+  CONTROL "Tan",btnTan,"Button",0x50010000,3,144,21,12,0x00000000
+  CONTROL "CA",btnCA,"Button",0x50010000,158,144,21,12,0x00000000
+  CONTROL "0",consola,"Static",0x50000202,92,128,88,12,0x00000000
+  CONTROL "0",consola1,"Static",0x50000202,8,114,172,12,0x00000000
+  CONTROL "",IDC_SHP1,"Static",0x50000004,0,0,184,114,0x00000000
+END
